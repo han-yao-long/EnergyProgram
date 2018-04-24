@@ -14,8 +14,6 @@ Vue.use(ElementUI);
 import echarts from 'echarts'
 Vue.prototype.$echarts = echarts 
 //vuex 
-import vuex from 'vuex'
-Vue.use(vuex)
 import store from '@/store';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/iconfont/iconfont.css';
@@ -39,6 +37,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

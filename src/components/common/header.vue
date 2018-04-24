@@ -57,7 +57,7 @@
       },
               computed: {
       ...mapState({
-            username: state => state.username,
+            username: state => state.login.username,
         })
     },
       mounted:function(){
