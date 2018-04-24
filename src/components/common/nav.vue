@@ -106,7 +106,7 @@ export default {
 
 
 .bac{
-     position: absolute;
+     position: fixed;
    left: 0;
     top: 98px;
     bottom:0;

@@ -35,6 +35,7 @@
   height:100%;
   background: #ffffff;
    background-size:cover;   
+   position: relative;
 }
 .mainss{
   background: #ffffff;

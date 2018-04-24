@@ -67,12 +67,14 @@
 </script>
 <style lang="less" scoped>
 .headerbox {
-    position: relative;
+    position: fixed;
+    left:0;
+    top:0;
 }
    .header {
        padding:0px;
        margin: 0px;
-        position: absolute;
+        position: fixed;
         left: 0;
         right: 0;
         box-sizing: border-box;
@@ -88,7 +90,7 @@
       
     }
       .logo{
-            position: absolute;
+            position: fixed;
             width: 500px;
             height: 70px;
             left: 0;
@@ -119,7 +121,7 @@
             }
         }
         .user-name{
-            position: absolute;
+            position: fixed;
             height: 70px;
             width: 300px;
             right: 140px;
@@ -130,7 +132,7 @@
         font-size:16px
     }
     .user-info {
-      position: absolute;
+      position: fixed;
       right: 60px;
       top:0;
       width: 100px;
@@ -156,7 +158,7 @@
   
     }
        .headr-next{
-     position: absolute;
+     position: fixed;
        height: 28px;
         width: 100%;
         left: 0;
