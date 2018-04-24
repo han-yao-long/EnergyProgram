@@ -5,7 +5,7 @@
       <Header ></Header>
   </el-header>
   <el-container  height="100%" class="container">
-    <el-aside width="199px" height="100%">
+    <el-aside width="200px" height="100%">
         <Nav></Nav>
     </el-aside>
     <el-main height="100%" class="mainss">   <router-view></router-view></el-main>
