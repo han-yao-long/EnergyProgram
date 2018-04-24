@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	.box {
+		/*overflow:hidden;第一种*/
+
+		/*overflow:auto;(第三种)
+		zoom:1;*/
+
+	}
+	.box1 {
+		width:200px;
+		height:200px;
+		background:red;
+		float:left;
+	}
+	.box2 {
+		width:200px;
+		height:200px;
+		background:green;
+		float:left;
+	}
+  /* .box3{
+   	clear:both;增加一个空标签(第二种)
+   }*/
+           
+             /*正确的一种*/
+   .clearfix:after { 	
+   	content:'';
+   	display:block;
+    clear:both;
+   }
+   .clearfix{
+   	zoom:1;
+   }
+</style>
+<body>
+	<div class="box clearfix">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<!-- <div class="box3"></div> -->
+	</div>
+	
+</body>
+</html>
